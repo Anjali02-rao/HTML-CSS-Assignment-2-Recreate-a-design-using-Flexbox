@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#product_container {
+  color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 250px;
+}
+#flex_container {
+display: flex;
+overflow: hidden;
+justify-content: center;
+width: 912px;
+height: 498px;
+border-radius: 20px;
+padding: 20px;
+}
+
+h1 {
+  font-style: Big Shoulders Display;
+  font-weight: 500px;
+  color: hsl(0, 0%, 95%);
+}
+
+#first_frame {
+  display: flex;
+  background-color: hsl(31, 77%, 52%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 304;
+  height: 498;
+}
+
+#second_frame{
+  display: flex;
+  background-color: hsl(184, 100%, 22%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 304;
+  height: 498;
+}
+
+#third_frame{
+  display: flex;
+  background-color: hsl(179, 100%, 13%);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 304;
+  height: 498;
+}
+
+.text_body {
+ display: flex;
+ font-style: Lexend Deca;
+ font-size: 15px;
+ font-weight: 400;
+ color; hsla(0, 0%, 100%, 0.75);
+  
+}
+
+.images {
+  display: contents;
+  background-color: transparent;
+  align-items: flex-start;
+}
+
+button {
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+  padding: 20px;
+  overflow: hidden;
+  border-color: (0, 0%, 95%);
+  border-radius: 33px;
+  align-items: center;
+}
+
+.sedan_car {
+  color: hsl(31, 77%, 52%);
+}
+.suvs_car {
+  color: hsl(184, 100%, 22%);
+}
+.luxury_car {
+  color: hsl(179, 100%, 13%);
+}
+
+#flex_container {
+  padding: 60px;
+}
+p {
+  line-height: 2;
+}
