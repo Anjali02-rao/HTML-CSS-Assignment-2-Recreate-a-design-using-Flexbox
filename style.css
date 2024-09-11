@@ -7,98 +7,84 @@ body {
   font-size: 15px;
   justify-content: center;
   align-items: center;
-}
-#product_container {
   color: hsl(0, 0%, 95%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 250px;
-}
-#flex_container {
-display: flex;
-overflow: hidden;
-justify-content: center;
-width: 912px;
-height: 498px;
-border-radius: 20px;
-padding: 20px;
-}
-
-h1 {
-  font-style: Big Shoulders Display;
-  font-weight: 500px;
-  color: hsl(0, 0%, 95%);
-}
-
-#first_frame {
-  display: flex;
-  background-color: hsl(31, 77%, 52%);
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 304;
-  height: 498;
-}
-
-#second_frame{
-  display: flex;
-  background-color: hsl(184, 100%, 22%);
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 304;
-  height: 498;
-}
-
-#third_frame{
-  display: flex;
-  background-color: hsl(179, 100%, 13%);
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  width: 304;
-  height: 498;
-}
-
-.text_body {
- display: flex;
- font-style: Lexend Deca;
- font-size: 15px;
- font-weight: 400;
- color; hsla(0, 0%, 100%, 0.75);
-  
-}
-
-.images {
-  display: contents;
-  background-color: transparent;
-  align-items: flex-start;
-}
-
-button {
-  display: flex;
-  background-color: hsl(0, 0%, 95%);
-  padding: 20px;
-  overflow: hidden;
-  border-color: (0, 0%, 95%);
-  border-radius: 33px;
-  align-items: center;
-}
-
-.sedan_car {
-  color: hsl(31, 77%, 52%);
-}
-.suvs_car {
-  color: hsl(184, 100%, 22%);
-}
-.luxury_car {
-  color: hsl(179, 100%, 13%);
 }
 
 #flex_container {
   padding: 60px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  width: 912px;
+  height: 498px;
+  border-radius: 20px;
 }
-p {
+
+.primary_font {
+  font-weight: 700px;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#first_frame {
+  background-color: hsl(31, 77%, 52%);
+  flex-direction: column;
+  color: hsl(31, 77%, 52%);
+}
+
+#second_frame {
+  background-color: hsl(184, 100%, 22%);
+  flex-direction: column;
+  color: hsl(184, 100%, 22%);
+}
+
+#third_frame {
+  background-color: hsl(179, 100%, 13%);
+  flex-direction: column;
+  color: hsl(179, 100%, 13%);
+}
+.frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 304;
+  height: 498;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.secondary_font {
+  display: flex;
+  justify-content: center;
+  font-style: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  /* height: 80px; */
+  align-items: flex-start;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.img {
+  display: contents;
+  background-color: transparent;
+  align-items: flex-start;
+  width: 60px;
+  height: 40px;
+}
+
+button {
+  display: flex;
+  border: none;
+  border-radius: 33px;
+  justify-content: center;
+  width: 146px;
+  height: 48px;
+  align-items: center;
+  color: inherit;
+  background-color: hsl(0, 0%, 95%);
+}
+*/ p {
   line-height: 2;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
