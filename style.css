@@ -1,23 +1,25 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
 body {
   display: flex;
-  font-size: 15px;
   justify-content: center;
   align-items: center;
   color: hsl(0, 0%, 95%);
 }
 
 #flex_container {
+  font-size: 15px;
   padding: 60px;
   display: flex;
   overflow: hidden;
   justify-content: center;
-  width: 912px;
+  max-width: 912px;
   height: 498px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .primary_font {
@@ -28,35 +30,32 @@ body {
 
 #first_frame {
   background-color: hsl(31, 77%, 52%);
-  flex-direction: column;
   color: hsl(31, 77%, 52%);
 }
 
 #second_frame {
   background-color: hsl(184, 100%, 22%);
-  flex-direction: column;
   color: hsl(184, 100%, 22%);
 }
 
 #third_frame {
   background-color: hsl(179, 100%, 13%);
-  flex-direction: column;
   color: hsl(179, 100%, 13%);
 }
 .frame {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   width: 304;
   height: 498;
   padding: 20px;
   overflow: hidden;
-  border-radius: 8px;
 }
 .secondary_font {
   display: flex;
   justify-content: center;
-  font-style: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
   font-weight: 400;
   /* height: 80px; */
@@ -82,9 +81,11 @@ button {
   align-items: center;
   color: inherit;
   background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
 }
+
 */ p {
   line-height: 2;
-  font-size: 15px;
+  font-size: 1px;
   color: hsla(0, 0%, 100%, 0.75);
 }
